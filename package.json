@@ -1,0 +1,16 @@
+{
+  "name": "iptv-player",
+  "version": "1.0.0",
+  "description": "A simple IPTV player built with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "m3u8-parser": "*",
+    "node-fetch": "*"
+  }
+}
