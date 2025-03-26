@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    display: block;
+    margin: 20px 0;
+}
+
+#iptv-url {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#load-url {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#load-url:hover {
+    background-color: #218838;
+}
+
+#channel-list {
+    margin-bottom: 20px;
+}
+
+.channel {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.channel:hover {
+    background-color: #ddd;
+}
+
+#load-more {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#load-more:hover {
+    background-color: #0056b3;
+}
