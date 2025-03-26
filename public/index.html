@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>IPTV Player</h1>
+    <div>
+        <input type="text" id="iptv-url" placeholder="Ingresa tu enlace IPTV (M3U)">
+        <button id="load-url">Cargar</button>
+    </div>
+    <video id="player" controls autoplay width="640" height="360"></video>
+    <h2>Canales</h2>
+    <div id="channel-list"></div>
+    <button id="load-more">Ver más</button>
+    <script src="script.js"></script>
+</body>
+</html>
